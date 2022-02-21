@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music app</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="maincont">
+        <div class="secondcont">
+            <div class="wrapper">
+                <header>
+                    <div class="imm">
+                    
+                    </div>
+                    <div class="outTitle">
+                       <h1>Dance Hall</h1>
+                    </div>
+                    <div class="prpr">
+                
+
+                    </div>
+                </header>
+
+            </div>
+            <div class="holders">
+                
+                <div class="holderii">
+                    <div class="left">
+                    <div class="imm">
+                       <div class="ppp"> <img  id="playplay"></div>
+
+                    </div>
+                </div>
+                    <div class="ooo">
+                        <!-- <div class="hod"> -->
+                            <div class="car">
+                    <div class="top">
+                        <h3 id="song_Artist">song artist</h3>
+
+                    </div> 
+                  
+                    <div class="topii">
+                        <h4 id="song_title">song title</h4>
+
+                    </div>
+                </div>
+                   
+                    <div class="icons">
+                        <span><button onclick="previous_song()"><img src="160-left-arrow.png" alt="" id="back"></button></span>
+                        <span><button onclick="playNow()"><img src="174-play-button.png" alt="" id="puase"></button></span>
+                        <span><button onclick="forward_song()"><img src="161-arrowhead-pointing-to-the-right.png" alt="" id="front"></button></span>
+
+                    </div>
+                    <audio ></audio>
+                    <div class="put">
+                  <input type="range" min="0" max="100"
+                  value="0" ondrag="" onchange="change_duration()" id="slider">
+                    </div>
+                <!-- </div> -->
+                </div>
+                </div>
+
+            </div>
+        </div>
+ <script src="music.js"></script>
+    </div>
+</body>
+</html>
